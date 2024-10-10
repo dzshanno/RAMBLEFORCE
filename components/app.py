@@ -1,4 +1,3 @@
-# <!-- app.py -->
 # Flask backend to handle registrations, tickets, and comments
 from flask import Flask, request, jsonify, render_template
 import stripe
@@ -41,7 +40,7 @@ def create_checkout_session():
                         "product_data": {
                             "name": "Rambleforce Ticket",
                         },
-                        "unit_amount": 5000,
+                        "unit_amount": 50,
                     },
                     "quantity": 1,
                 },
