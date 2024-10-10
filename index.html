@@ -1,12 +1,14 @@
 <!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rambleforce - Salesforce Adventure</title>
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
+
 <body>
     <!-- Include header component -->
     <div id="header-placeholder"></div>
@@ -15,10 +17,12 @@
             .then(response => response.text())
             .then(data => document.getElementById('header-placeholder').innerHTML = data);
     </script>
-    
+
     <section id="event-summary">
         <h2>About the Event</h2>
-        <p>Rambleforce is an annual gathering of Salesforce users and partners. It's held in Ambleside in the Lake District during the last weekend of September. The event features net-walking sessions, Salesforce discussions, and coincides with the Ambleside Beer and Music Festival for evening entertainment.</p>
+        <p>Rambleforce is an annual gathering of Salesforce users and partners. It's held in Ambleside in the English
+            Lake District during the last weekend of September. The event features net-walking sessions, Salesforce
+            discussions, and coincides with the Ambleside Beer and Music Festival for evening entertainment.</p>
     </section>
 
     <!-- Include footer component -->
@@ -30,4 +34,5 @@
     </script>
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>
