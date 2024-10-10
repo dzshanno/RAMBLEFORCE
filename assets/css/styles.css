@@ -1,4 +1,4 @@
-<!-- styles.css -->
+<!-- assets/css/styles.css -->
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-image: url('ambleside.jpg');
+    background-image: url('../images/ambleside.jpg');
     background-size: cover;
     color: white;
     padding: 5rem;
