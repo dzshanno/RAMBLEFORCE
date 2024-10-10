@@ -1,0 +1,5 @@
+<!-- requirements.txt -->
+Flask==2.0.1
+stripe==2.55.0
+boto3==1.17.106
+requests==2.25.1
